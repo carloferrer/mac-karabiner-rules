@@ -453,6 +453,57 @@
                     "type": "basic"
                 }
             ]
+        },
+        {
+            "description": "[/] + up/down controls screen brightness",
+            "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "name": "slash pressed",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
+                    "from": {
+                        "key_code": "up_arrow",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "display_brightness_increment"
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "conditions": [
+                        {
+                            "name": "slash pressed",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
+                    "from": {
+                        "key_code": "down_arrow",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "display_brightness_decrement"
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
         }
     ]
 }
