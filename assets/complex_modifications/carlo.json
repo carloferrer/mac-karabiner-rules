@@ -326,7 +326,7 @@
             ]
         },
         {
-            "description": "[/] + ws posts volume up/down",
+            "description": "[/] + wasd controls volume and track nav",
             "manipulators": [
                 {
                     "conditions": [
@@ -370,6 +370,52 @@
                     "to": [
                         {
                             "key_code": "volume_decrement"
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "conditions": [
+                        {
+                            "name": "slash pressed",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
+                    "from": {
+                        "key_code": "a",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "rewind"
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "conditions": [
+                        {
+                            "name": "slash pressed",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
+                    "from": {
+                        "key_code": "d",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "fastforward"
                         }
                     ],
                     "type": "basic"
