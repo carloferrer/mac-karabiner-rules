@@ -269,7 +269,7 @@
                 }
             ]
         },
-         {
+        {
             "description": "[caps lock] + [backspace] posts [delete]",
             "manipulators": [
                 {
@@ -291,6 +291,34 @@
                     "to": [
                         {
                             "key_code": "delete_forward"
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
+            "description": "[caps lock] + q posts play/pause",
+            "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "name": "caps_lock pressed",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
+                    "from": {
+                        "key_code": "q",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "play_or_pause"
                         }
                     ],
                     "type": "basic"
