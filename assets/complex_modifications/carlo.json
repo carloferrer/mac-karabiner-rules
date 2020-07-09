@@ -298,12 +298,12 @@
             ]
         },
         {
-            "description": "[caps lock] + q posts play/pause",
+            "description": "[space] + q posts play/pause",
             "manipulators": [
                 {
                     "conditions": [
                         {
-                            "name": "caps_lock pressed",
+                            "name": "spacebar pressed",
                             "type": "variable_if",
                             "value": 1
                         }
