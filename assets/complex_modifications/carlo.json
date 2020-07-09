@@ -2,7 +2,7 @@
     "title": "Carlo Ruleset",
     "rules": [
         {
-            "description": "[caps lock] + hjkl posts arrow keys",
+            "description": "[caps lock] + [h, j, k, l] posts arrow keys",
             "manipulators": [
                 {
                     "conditions": [
@@ -99,7 +99,7 @@
             ]
         },
         {
-            "description": "[caps lock] + wasd posts arrow keys",
+            "description": "[caps lock] + [w, a,s, d] posts arrow keys",
             "manipulators": [
                 {
                     "conditions": [
@@ -298,7 +298,7 @@
             ]
         },
         {
-            "description": "[space] + q posts play/pause",
+            "description": "[space] + [q] posts play/pause",
             "manipulators": [
                 {
                     "conditions": [
@@ -326,7 +326,7 @@
             ]
         },
         {
-            "description": "[/] + q posts play/pause",
+            "description": "[/] + [q] posts play/pause",
             "manipulators": [
                 {
                     "conditions": [
@@ -354,7 +354,7 @@
             ]
         },
         {
-            "description": "[/] + wasd controls volume and track nav",
+            "description": "[/] + [w, a, s, d] controls volume and track nav",
             "manipulators": [
                 {
                     "conditions": [
@@ -483,7 +483,7 @@
             ]
         },
         {
-            "description": "[space] + wasd controls volume and track nav",
+            "description": "[space] + [w, a, s, d] controls volume and track nav",
             "manipulators": [
                 {
                     "conditions": [
