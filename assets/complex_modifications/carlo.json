@@ -661,6 +661,57 @@
                     "type": "basic"
                 }
             ]
+        },
+        {
+            "description": "[/] + left/right controls mac keyboard brightness",
+            "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "name": "slash pressed",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
+                    "from": {
+                        "key_code": "right_arrow",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "illumination_increment"
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "conditions": [
+                        {
+                            "name": "slash pressed",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
+                    "from": {
+                        "key_code": "left_arrow",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "illumination_decrement"
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
         }
     ]
 }
