@@ -18,8 +18,7 @@ Free yourself of the terrible MacBook Pro Touch Bar (and pre-2019 arrow keys) wi
 1. Copy the `mac-karabiner-rules/assets/complex_modifications/carlo.json` file from here into `~/.config/karabiner/assets/complex_modifications/` on your own machine.
 1. In Karabiner's `Preferences > Complex modifications`, add the things you want/need in life.
 
-
-
+![How to Do the Thing](./how-to-add-rules.png)
 
 ## Inspiration
 I made this after buying a Keychron K6 (68-key keyboard) and realizing there was no native support for configuring it to my preferences. 
