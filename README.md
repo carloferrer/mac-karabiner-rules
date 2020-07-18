@@ -7,11 +7,11 @@ Free yourself of the terrible MacBook Pro Touch Bar (and pre-2019 arrow keys) wi
 - [esc] alone posts [`]
 - [caps lock] + [backspace] posts [delete]
 - [caps lock] + [q] posts play/pause
-- [.] + [q] posts play/pause
-- [.] + [w, a, s, d] controls volume and track nav
+- [/] + [q] posts play/pause
+- [/] + [w, a, s, d] controls volume and track nav
 - [space] + [w, a, s, d] controls volume and track nav
-- [.] + up/down controls screen brightness
-- [.] + left/right controls mac keyboard brightness
+- [/] + up/down controls screen brightness
+- [/] + left/right controls mac keyboard brightness
 
 ## How to use this thing
 1. Assuming you're on Mac, download Karabiner here: https://karabiner-elements.pqrs.org/

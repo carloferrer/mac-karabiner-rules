@@ -326,12 +326,12 @@
             ]
         },
         {
-            "description": "[.] + [q] posts play/pause",
+            "description": "[/] + [q] posts play/pause",
             "manipulators": [
                 {
                     "conditions": [
                         {
-                            "name": "period pressed",
+                            "name": "slash pressed",
                             "type": "variable_if",
                             "value": 1
                         }
@@ -354,12 +354,12 @@
             ]
         },
         {
-            "description": "[.] + [w, a, s, d] controls volume and track nav",
+            "description": "[/] + [w, a, s, d] controls volume and track nav",
             "manipulators": [
                 {
                     "conditions": [
                         {
-                            "name": "period pressed",
+                            "name": "slash pressed",
                             "type": "variable_if",
                             "value": 1
                         }
@@ -382,7 +382,7 @@
                 {
                     "conditions": [
                         {
-                            "name": "period pressed",
+                            "name": "slash pressed",
                             "type": "variable_if",
                             "value": 1
                         }
@@ -405,7 +405,7 @@
                 {
                     "conditions": [
                         {
-                            "name": "period pressed",
+                            "name": "slash pressed",
                             "type": "variable_if",
                             "value": 1
                         }
@@ -428,7 +428,7 @@
                 {
                     "conditions": [
                         {
-                            "name": "period pressed",
+                            "name": "slash pressed",
                             "type": "variable_if",
                             "value": 1
                         }
@@ -450,7 +450,7 @@
                 },
                 {
                     "from": {
-                        "key_code": "period",
+                        "key_code": "slash",
                         "modifiers": {
                             "optional": [
                                 "any"
@@ -460,7 +460,7 @@
                     "to": [
                         {
                             "set_variable": {
-                                "name": "period pressed",
+                                "name": "slash pressed",
                                 "value": 1
                             }
                         }
@@ -468,14 +468,14 @@
                     "to_after_key_up": [
                         {
                             "set_variable": {
-                                "name": "period pressed",
+                                "name": "slash pressed",
                                 "value": 0
                             }
                         }
                     ],
                     "to_if_alone": [
                         {
-                            "key_code": "period"
+                            "key_code": "slash"
                         }
                     ],
                     "type": "basic"
@@ -612,12 +612,12 @@
             ]
         },
         {
-            "description": "[.] + up/down controls screen brightness",
+            "description": "[/] + up/down controls screen brightness",
             "manipulators": [
                 {
                     "conditions": [
                         {
-                            "name": "period pressed",
+                            "name": "slash pressed",
                             "type": "variable_if",
                             "value": 1
                         }
@@ -640,7 +640,7 @@
                 {
                     "conditions": [
                         {
-                            "name": "period pressed",
+                            "name": "slash pressed",
                             "type": "variable_if",
                             "value": 1
                         }
@@ -663,12 +663,12 @@
             ]
         },
         {
-            "description": "[.] + left/right controls mac keyboard brightness",
+            "description": "[/] + left/right controls mac keyboard brightness",
             "manipulators": [
                 {
                     "conditions": [
                         {
-                            "name": "period pressed",
+                            "name": "slash pressed",
                             "type": "variable_if",
                             "value": 1
                         }
@@ -691,7 +691,7 @@
                 {
                     "conditions": [
                         {
-                            "name": "period pressed",
+                            "name": "slash pressed",
                             "type": "variable_if",
                             "value": 1
                         }
