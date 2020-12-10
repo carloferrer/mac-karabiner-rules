@@ -270,6 +270,43 @@
             ]
         },
         {
+            "description": "[home] alone posts [F8]",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "home",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "set_variable": {
+                                "name": "home pressed",
+                                "value": 1
+                            }
+                        }
+                    ],
+                    "to_after_key_up": [
+                        {
+                            "set_variable": {
+                                "name": "home pressed",
+                                "value": 0
+                            }
+                        }
+                    ],
+                    "to_if_alone": [
+                        {
+                            "key_code": "f8"
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
             "description": "[caps lock] + [backspace] posts [delete]",
             "manipulators": [
                 {
